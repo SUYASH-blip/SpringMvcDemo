@@ -4,7 +4,7 @@ public class Student {
 
 
         private String name;
-        private int id;
+        private long id;
         private String email;
 
         public Student(String name, int id, String email) {
@@ -21,7 +21,7 @@ public class Student {
             this.name = name;
         }
 
-        public int getId() {
+        public long getId() {
             return id;
         }
 
